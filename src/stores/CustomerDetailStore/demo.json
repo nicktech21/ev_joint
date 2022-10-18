@@ -1,0 +1,612 @@
+{
+  "status": 1,
+  "message": "",
+  "result": {
+    "id": 1,
+    "first_name": "PRANAY",
+    "last_name": "PATIL",
+    "email": "pranay@techstalwarts.com",
+    "mobile": "8766428414",
+    "customerBookings": [
+      {
+        "id": 2,
+        "date": "2022-08-20",
+        "from_time": "13:20:00",
+        "to_time": "13:40:00",
+        "charging_status": "BOOKED",
+        "payable_amount": 100,
+        "invoice": {
+          "id": 1,
+          "booking_id": 2,
+          "gross_amount": 100,
+          "discount_amount": 0,
+          "wallet_amount": 0,
+          "promocode_amount": 0,
+          "payable_amount": 100,
+          "tax_amount": 0,
+          "net_amount": 100,
+          "total_amount": 100,
+          "refund_amount": 0,
+          "is_wallet": 0,
+          "promocode_id": 0,
+          "payment_mode": "RAZORPAY",
+          "pg_order_id": "123",
+          "pg_response": null,
+          "payment_status": "SUCCESS",
+          "status": 1,
+          "created_at": "2022-07-20 06:31:02",
+          "updated_at": null
+        },
+        "connectorBookings": {
+          "charger_type_id": 2,
+          "price_per_khw": 32,
+          "charger_type": {
+            "name": "AC Level 2"
+          }
+        },
+        "chargingStation": {
+          "name": "Volttic Charging Station",
+          "city": null,
+          "landmark": null,
+          "stationsAmenities": [
+            {
+              "id": 1,
+              "amenity": {
+                "name": "Free Wifi",
+                "thumbnail": "http://43.204.45.214:3000/wifi.png"
+              }
+            },
+            {
+              "id": 2,
+              "amenity": {
+                "name": "Restroom",
+                "thumbnail": "http://43.204.45.214:3000/restroom.png"
+              }
+            },
+            {
+              "id": 3,
+              "amenity": {
+                "name": "Restaurants",
+                "thumbnail": "http://43.204.45.214:3000/restaurants.png"
+              }
+            }
+          ]
+        },
+        "vehicleBookings": {
+          "id": 2,
+          "vehicle_registration_no": "1234",
+          "manufacturer": {
+            "id": 4,
+            "name": "Mahindra"
+          },
+          "vehicle_model": {
+            "id": 2,
+            "name": "Nexon"
+          }
+        }
+      },
+      {
+        "id": 1,
+        "date": "2022-08-19",
+        "from_time": "10:00:00",
+        "to_time": "10:20:00",
+        "charging_status": "BOOKED",
+        "payable_amount": 100,
+        "invoice": null,
+        "connectorBookings": {
+          "charger_type_id": 2,
+          "price_per_khw": 32,
+          "charger_type": {
+            "name": "AC Level 2"
+          }
+        },
+        "chargingStation": {
+          "name": "Volttic Charging Station",
+          "city": null,
+          "landmark": null,
+          "stationsAmenities": [
+            {
+              "id": 1,
+              "amenity": {
+                "name": "Free Wifi",
+                "thumbnail": "http://43.204.45.214:3000/wifi.png"
+              }
+            },
+            {
+              "id": 2,
+              "amenity": {
+                "name": "Restroom",
+                "thumbnail": "http://43.204.45.214:3000/restroom.png"
+              }
+            },
+            {
+              "id": 3,
+              "amenity": {
+                "name": "Restaurants",
+                "thumbnail": "http://43.204.45.214:3000/restaurants.png"
+              }
+            }
+          ]
+        },
+        "vehicleBookings": {
+          "id": 1,
+          "vehicle_registration_no": "12345",
+          "manufacturer": {
+            "id": 1,
+            "name": "Hyundai"
+          },
+          "vehicle_model": {
+            "id": 1,
+            "name": "Model S"
+          }
+        }
+      },
+      {
+        "id": 6,
+        "date": "2022-08-20",
+        "from_time": "11:20:00",
+        "to_time": "11:40:00",
+        "charging_status": "BOOKED",
+        "payable_amount": 100,
+        "invoice": null,
+        "connectorBookings": {
+          "charger_type_id": 1,
+          "price_per_khw": 25,
+          "charger_type": {
+            "name": "AC Level 1"
+          }
+        },
+        "chargingStation": {
+          "name": "Volttic Charging Station",
+          "city": null,
+          "landmark": null,
+          "stationsAmenities": [
+            {
+              "id": 1,
+              "amenity": {
+                "name": "Free Wifi",
+                "thumbnail": "http://43.204.45.214:3000/wifi.png"
+              }
+            },
+            {
+              "id": 2,
+              "amenity": {
+                "name": "Restroom",
+                "thumbnail": "http://43.204.45.214:3000/restroom.png"
+              }
+            },
+            {
+              "id": 3,
+              "amenity": {
+                "name": "Restaurants",
+                "thumbnail": "http://43.204.45.214:3000/restaurants.png"
+              }
+            }
+          ]
+        },
+        "vehicleBookings": {
+          "id": 2,
+          "vehicle_registration_no": "1234",
+          "manufacturer": {
+            "id": 4,
+            "name": "Mahindra"
+          },
+          "vehicle_model": {
+            "id": 2,
+            "name": "Nexon"
+          }
+        }
+      },
+      {
+        "id": 8,
+        "date": "2022-08-21",
+        "from_time": "11:00:00",
+        "to_time": "11:20:00",
+        "charging_status": "COMPLETED",
+        "payable_amount": 25,
+        "invoice": null,
+        "connectorBookings": {
+          "charger_type_id": 2,
+          "price_per_khw": 32,
+          "charger_type": {
+            "name": "AC Level 2"
+          }
+        },
+        "chargingStation": {
+          "name": "Volttic Charging Station",
+          "city": null,
+          "landmark": null,
+          "stationsAmenities": [
+            {
+              "id": 1,
+              "amenity": {
+                "name": "Free Wifi",
+                "thumbnail": "http://43.204.45.214:3000/wifi.png"
+              }
+            },
+            {
+              "id": 2,
+              "amenity": {
+                "name": "Restroom",
+                "thumbnail": "http://43.204.45.214:3000/restroom.png"
+              }
+            },
+            {
+              "id": 3,
+              "amenity": {
+                "name": "Restaurants",
+                "thumbnail": "http://43.204.45.214:3000/restaurants.png"
+              }
+            }
+          ]
+        },
+        "vehicleBookings": {
+          "id": 1,
+          "vehicle_registration_no": "12345",
+          "manufacturer": {
+            "id": 1,
+            "name": "Hyundai"
+          },
+          "vehicle_model": {
+            "id": 1,
+            "name": "Model S"
+          }
+        }
+      },
+      {
+        "id": 7,
+        "date": "2022-08-21",
+        "from_time": "12:00:00",
+        "to_time": "12:20:00",
+        "charging_status": "BOOKED",
+        "payable_amount": 225,
+        "invoice": null,
+        "connectorBookings": {
+          "charger_type_id": 2,
+          "price_per_khw": 32,
+          "charger_type": {
+            "name": "AC Level 2"
+          }
+        },
+        "chargingStation": {
+          "name": "Test Charging Station",
+          "city": null,
+          "landmark": null,
+          "stationsAmenities": [
+            {
+              "id": 4,
+              "amenity": {
+                "name": "Restaurants",
+                "thumbnail": "http://43.204.45.214:3000/restaurants.png"
+              }
+            },
+            {
+              "id": 5,
+              "amenity": {
+                "name": "Restroom",
+                "thumbnail": "http://43.204.45.214:3000/restroom.png"
+              }
+            },
+            {
+              "id": 6,
+              "amenity": {
+                "name": "Coffee Bar",
+                "thumbnail": "http://43.204.45.214:3000/coffee_bar.png"
+              }
+            }
+          ]
+        },
+        "vehicleBookings": {
+          "id": 3,
+          "vehicle_registration_no": "1234567",
+          "manufacturer": {
+            "id": 3,
+            "name": "MG"
+          },
+          "vehicle_model": {
+            "id": 1,
+            "name": "Model S"
+          }
+        }
+      }
+    ],
+    "customer_attachment": [
+      {
+        "id": 7,
+        "name": "1_customer_1660309802188.jpg",
+        "station_id": 1,
+        "type": "IMAGE",
+        "thumbnail": "http://43.204.45.214:3000/chargingPoint1.png",
+        "created_at": "2022-07-14 16:41:53",
+        "station": {
+          "name": "Volttic Charging Station"
+        }
+      },
+      {
+        "id": 9,
+        "name": "1_1657799099572",
+        "station_id": 1,
+        "type": "IMAGE",
+        "thumbnail": "http://43.204.45.214:3000/chargingPoint1.png",
+        "created_at": "2022-07-14 17:14:59",
+        "station": {
+          "name": "Volttic Charging Station"
+        }
+      },
+      {
+        "id": 10,
+        "name": "1_1657799183992",
+        "station_id": 1,
+        "type": "IMAGE",
+        "thumbnail": "http://43.204.45.214:3000/chargingPoint1-2.png",
+        "created_at": "2022-07-14 17:16:23",
+        "station": {
+          "name": "Volttic Charging Station"
+        }
+      },
+      {
+        "id": 11,
+        "name": "1_1657799441503",
+        "station_id": 2,
+        "type": "IMAGE",
+        "thumbnail": "http://43.204.45.214:3000/chargingPoint1-3.png",
+        "created_at": "2022-07-14 17:20:41",
+        "station": {
+          "name": "Test Charging Station"
+        }
+      },
+      {
+        "id": 12,
+        "name": "1_1657799647212",
+        "station_id": 2,
+        "type": "IMAGE",
+        "thumbnail": "http://43.204.45.214:3000/chargingPoint1-2.png",
+        "created_at": "2022-07-14 17:24:07",
+        "station": {
+          "name": "Test Charging Station"
+        }
+      },
+      {
+        "id": 25,
+        "name": "1_1_feedback_1659348712737.png",
+        "station_id": 1,
+        "type": "IMAGE",
+        "thumbnail": null,
+        "created_at": "2022-08-01 15:41:52",
+        "station": {
+          "name": "Volttic Charging Station"
+        }
+      },
+      {
+        "id": 26,
+        "name": "1_1_feedback_1659349057521.jpg",
+        "station_id": 1,
+        "type": "IMAGE",
+        "thumbnail": null,
+        "created_at": "2022-08-01 15:47:37",
+        "station": {
+          "name": "Volttic Charging Station"
+        }
+      },
+      {
+        "id": 27,
+        "name": "1_1_feedback_1659351650616.png",
+        "station_id": 1,
+        "type": "IMAGE",
+        "thumbnail": "http://43.204.45.214:3000/chargingPoint1-2.png",
+        "created_at": "2022-08-01 16:30:50",
+        "station": {
+          "name": "Volttic Charging Station"
+        }
+      },
+      {
+        "id": 28,
+        "name": "1_1_feedback_1659351789857.jpg",
+        "station_id": 1,
+        "type": "IMAGE",
+        "thumbnail": "http://43.204.45.214:3000/chargingPoint1-2.png",
+        "created_at": "2022-08-01 16:33:09",
+        "station": {
+          "name": "Volttic Charging Station"
+        }
+      },
+      {
+        "id": 29,
+        "name": "1_1_feedback_1659352647305.jpg",
+        "station_id": 1,
+        "type": "IMAGE",
+        "thumbnail": "http://43.204.45.214:3000/chargingPoint1-2.png",
+        "created_at": "2022-08-01 16:47:27",
+        "station": {
+          "name": "Volttic Charging Station"
+        }
+      },
+      {
+        "id": 30,
+        "name": "1_2_feedback_1659352684378.jpg",
+        "station_id": 2,
+        "type": "IMAGE",
+        "thumbnail": "http://43.204.45.214:3000/chargingPoint1-2.png",
+        "created_at": "2022-08-01 16:48:04",
+        "station": {
+          "name": "Test Charging Station"
+        }
+      },
+      {
+        "id": 32,
+        "name": "1_station_1659524585386.jpg",
+        "station_id": 1,
+        "type": "IMAGE",
+        "thumbnail": "https://evjoints.s3.amazonaws.com/dev/IMAGE/1_station_1659524585386.jpg",
+        "created_at": "2022-08-03 16:33:05",
+        "station": {
+          "name": "Volttic Charging Station"
+        }
+      },
+      {
+        "id": 33,
+        "name": "2_station_1659603258420.jpg",
+        "station_id": 2,
+        "type": "image",
+        "thumbnail": "https://evjoints.s3.ap-south-1.amazonaws.com/dev/image/2_station_1659603258420.jpg",
+        "created_at": "2022-08-04 14:24:18",
+        "station": {
+          "name": "Test Charging Station"
+        }
+      },
+      {
+        "id": 54,
+        "name": "1_station_1661343234296.jpg",
+        "station_id": 1,
+        "type": "IMAGE",
+        "thumbnail": "https://evjoints.s3.amazonaws.com/dev/IMAGE/1_station_1661343234296.jpg",
+        "created_at": "2022-08-24 17:43:54",
+        "station": {
+          "name": "Volttic Charging Station"
+        }
+      }
+    ],
+    "my_vehicles": [
+      {
+        "id": 1,
+        "manufacturer": {
+          "name": "Hyundai",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/hyundai.png"
+        },
+        "vehicle_model": {
+          "name": "Model S"
+        }
+      },
+      {
+        "id": 2,
+        "manufacturer": {
+          "name": "Mahindra",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/mahindra.png"
+        },
+        "vehicle_model": {
+          "name": "Nexon"
+        }
+      },
+      {
+        "id": 3,
+        "manufacturer": {
+          "name": "MG",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/mg.png"
+        },
+        "vehicle_model": {
+          "name": "Model S"
+        }
+      },
+      {
+        "id": 4,
+        "manufacturer": {
+          "name": "Tata",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/tata.png"
+        },
+        "vehicle_model": {
+          "name": "Model S"
+        }
+      },
+      {
+        "id": 8,
+        "manufacturer": {
+          "name": "Tata",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/tata.png"
+        },
+        "vehicle_model": {
+          "name": "Nexon"
+        }
+      },
+      {
+        "id": 9,
+        "manufacturer": {
+          "name": "Hyundai",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/hyundai.png"
+        },
+        "vehicle_model": {
+          "name": "Model S"
+        }
+      },
+      {
+        "id": 10,
+        "manufacturer": {
+          "name": "Mahindra",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/mahindra.png"
+        },
+        "vehicle_model": {
+          "name": "Model S"
+        }
+      },
+      {
+        "id": 12,
+        "manufacturer": {
+          "name": "Tata",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/tata.png"
+        },
+        "vehicle_model": {
+          "name": "Model S"
+        }
+      },
+      {
+        "id": 13,
+        "manufacturer": {
+          "name": "Hyundai",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/hyundai.png"
+        },
+        "vehicle_model": {
+          "name": "Nexon"
+        }
+      },
+      {
+        "id": 19,
+        "manufacturer": {
+          "name": "Tata",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/tata.png"
+        },
+        "vehicle_model": {
+          "name": "Model S"
+        }
+      },
+      {
+        "id": 20,
+        "manufacturer": {
+          "name": "Hyundai",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/hyundai.png"
+        },
+        "vehicle_model": {
+          "name": "Nexon"
+        }
+      },
+      {
+        "id": 21,
+        "manufacturer": {
+          "name": "Hyundai",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/hyundai.png"
+        },
+        "vehicle_model": {
+          "name": "Model S"
+        }
+      },
+      {
+        "id": 22,
+        "manufacturer": {
+          "name": "Tata",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/tata.png"
+        },
+        "vehicle_model": {
+          "name": "Nexon"
+        }
+      },
+      {
+        "id": 23,
+        "manufacturer": {
+          "name": "Hyundai",
+          "thumbnail": "http://43.204.45.214:3000/manufacturer/hyundai.png"
+        },
+        "vehicle_model": {
+          "name": "Model S"
+        }
+      }
+    ]
+  }
+}

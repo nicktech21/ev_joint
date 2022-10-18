@@ -1,0 +1,9 @@
+export const ChargingDataConstant = {
+
+    
+    CHARGING_DATA_SAGA: "CHARGING_DATA_SAGA",
+    CHARGING_DATA_REQUEST: "CHARGING_DATA_REQUEST",
+    CHARGING_DATA_RESPONSE: "CHARGING_DATA_RESPONSE",
+    CHARGING_DATA_API: "v1/charging/data",
+
+};

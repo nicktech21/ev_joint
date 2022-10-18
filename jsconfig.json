@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "baseUrl": "src",
+        "paths": {
+            "pages/*": ["pages/*"],
+            "theme/*": ["theme/*"],
+            "stores/*": ["stores/*"],
+            "config/*": ["config/*"],
+            "helper/*": ["helper/*"],
+            "components/*": ["components/*"],
+            "containers/*": ["containers/*"]
+        }
+    },
+    "include": ["src", "src/containers/ChargingStationTable/.js"]
+}

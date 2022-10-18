@@ -1,0 +1,18 @@
+export const HelpSupportConstant = {
+
+    
+    HELP_SUPPORT_SAGA: "HELP_SUPPORT_SAGA",
+    HELP_SUPPORT_REQUEST: "HELP_SUPPORT_REQUEST",
+    HELP_SUPPORT_RESPONSE: "HELP_SUPPORT_RESPONSE",
+    HELP_SUPPORT_API: "v1/help/support",
+
+    FAQ_SAGA: "FAQ_SAGA",
+    FAQ_REQUEST: "FAQ_REQUEST",
+    FAQ_RESPONSE: "FAQ_RESPONSE",
+    FAQ_API: "faqs",
+
+    
+
+
+
+};

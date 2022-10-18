@@ -1,0 +1,9 @@
+export const BookingTableConstant = {
+
+    
+    BOOKING_TABLE_SAGA: "BOOKING_TABLE_SAGA",
+    BOOKING_TABLE_REQUEST: "BOOKING_TABLE_REQUEST",
+    BOOKING_TABLE_RESPONSE: "BOOKING_TABLE_RESPONSE",
+    BOOKING_TABLE_API: "vendor/bookings",
+
+};
